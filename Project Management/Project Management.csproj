@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Project_Management</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\delete3.png" />
+    <None Remove="Images\delete4.png" />
+    <None Remove="Images\delete5.png" />
+    <None Remove="Images\delete6.png" />
+    <None Remove="Images\delete7.png" />
+    <None Remove="Images\delete8.png" />
+    <None Remove="Resources\delete.png" />
+    <None Remove="Resources\delete2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\delete5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2022.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\delete3.png" />
+    <Resource Include="Images\delete4.png" />
+    <Resource Include="Images\delete6.png" />
+    <Resource Include="Images\delete7.png" />
+    <Resource Include="Images\delete8.png" />
+    <Resource Include="Resources\delete.png" />
+    <Resource Include="Images\delete2.png" />
+  </ItemGroup>
+
+</Project>
